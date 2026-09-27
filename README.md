@@ -34,15 +34,27 @@ Most functions are primarily designed for RSSRO and FAR environments. In non-RSS
 
 Features & Current State / 功能与现状
 
-kOS Support: Included in the Ships folder are experimental kOS configurations based on Chris's program. These can utilize MechJeb (MJ) to complete the full process from launch, hot-staging, to downrange landing. However, the landing accuracy is not high and requires a recovery zone with a diameter of several dozen kilometers.
+Ships Folder / 船只文件夹:
 
-运力 (Payload Capacity): Currently features a three-stage version of the CZ-9 (Stage 1 recoverable, Stages 2 and 3 expendable).
+Inside the Ships/Script folder, you will find experimental kOS configurations (You need to download kOS and Chris GNC Suite separately).
+
+Inside the Ships/VAB folder, there is a completed vehicle (craft file). It utilizes some RO-provided parts for upper stage control and ProceduralParts components as payload.
+
+kOS Support: Based on Chris's program. These can utilize MechJeb (MJ) to complete the full process from launch, hot-staging, to downrange landing. However, the landing accuracy is not high and requires a recovery zone with a diameter of several dozen kilometers.
+
+Payload Capacity: Currently features a three-stage version of the CZ-9 (Stage 1 recoverable, Stages 2 and 3 expendable).
 
 Expendable maximum capacity: TLI ≤ 160t.
 
 Downrange recovery maximum capacity: TLI ≤ 144t.
 
-kOS支持：在 Ships 文件里包含了试验性的KOS的配置，基于Chris的程序创建，能利用MJ完成发射、热分离到航迹下回收的全流程，但是回收精度不高，需要几十公里直径的回收场用以承载火箭。
+船只文件夹：
+
+在 Ships/Script 文件夹下包含了试验性的kOS配置（需要自行下载 kOS 和 Chris GNC Suite）。
+
+在 Ships/VAB 文件夹下包含了一个已经完成的载具（craft文件），其中使用了一些 RO提供的组件用于末级控制，并使用 ProceduralParts 提供的组件作为载重。
+
+kOS支持：基于Chris的程序创建，能利用MJ完成发射、热分离到航迹下回收的全流程，但是回收精度不高，需要几十公里直径的回收场用以承载火箭。
 
 运力：现在已有的是三级版本CZ-9，一级可回收，二三级全消耗。
 
